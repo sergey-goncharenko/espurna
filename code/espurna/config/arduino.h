@@ -61,7 +61,7 @@
 //#define GENERIC_ESP01S_DS18B20_V10
 //#define GENERIC_ESP01S_RELAY_V40
 //#define GENERIC_ESP01S_RGBLED_V10
-//#define GENERIC_ESP01_512KB
+#define GENERIC_ESP01_512KB
 //#define GENERIC_GU10
 //#define GENERIC_V9261F
 //#define GIZWITS_WITTY_CLOUD
@@ -188,24 +188,24 @@
 // Features (values below are non-default values)
 //--------------------------------------------------------------------------------
 
-//#define ALEXA_SUPPORT          0
+#define ALEXA_SUPPORT          0
 //#define API_SUPPORT            0
 //#define BROKER_SUPPORT         0
-//#define BUTTON_SUPPORT         0
+#define BUTTON_SUPPORT         0
 //#define DEBUG_SERIAL_SUPPORT   0
 //#define DEBUG_TELNET_SUPPORT   0
 //#define DEBUG_UDP_SUPPORT      1
 //#define DEBUG_WEB_SUPPORT      0
-//#define DOMOTICZ_SUPPORT       0
+#define DOMOTICZ_SUPPORT       0
 //#define ENCODER_SUPPORT        1
-//#define HOMEASSISTANT_SUPPORT  0
+#define HOMEASSISTANT_SUPPORT  0
 //#define I2C_SUPPORT            1
 //#define INFLUXDB_SUPPORT       1
 //#define IR_SUPPORT             1
 //#define LED_SUPPORT            0
 //#define LLMNR_SUPPORT          1  // Only with latest Arduino Core
 //#define MDNS_CLIENT_SUPPORT    1
-//#define MDNS_SERVER_SUPPORT    0
+#define MDNS_SERVER_SUPPORT    0
 //#define MQTT_SUPPORT           0
 //#define NETBIOS_SUPPORT        1  // Only with latest Arduino Core
 //#define NOFUSS_SUPPORT         1
@@ -214,13 +214,13 @@
 //#define RFM69_SUPPORT          1
 //#define RFB_SUPPORT            1
 //#define RPN_RULES_SUPPORT      0
-//#define SCHEDULER_SUPPORT      0
+#define SCHEDULER_SUPPORT      0
 //#define SPIFFS_SUPPORT         1
 //#define SSDP_SUPPORT           1
 //#define TELNET_SUPPORT         0
 //#define TERMINAL_SUPPORT       0
-//#define THINGSPEAK_SUPPORT     0
-//#define TUYA_SUPPORT           0
+#define THINGSPEAK_SUPPORT     0
+#define TUYA_SUPPORT           0
 //#define UART_MQTT_SUPPORT      1
 //#define WEB_SUPPORT            0
 
